@@ -1,7 +1,7 @@
 .logo-video {
   width: 250px;
   height: auto;
-  margin-top: -3%;
+  
 }
 .navbar {
   padding: 20px 0px;
@@ -10,7 +10,7 @@
   align-items: center;
 }
 .navbar-menu {
-  margin-top: -10%;
+  margin-top: -5%;
   display: flex;
   list-style-type: none;
   gap: 20px;
@@ -19,7 +19,7 @@
   cursor: pointer;
 }
 .navbar-right {
-  margin-top: -10%;
+  margin-top: -5%;
   display: flex;
   align-items: center;
   gap: 40px;
