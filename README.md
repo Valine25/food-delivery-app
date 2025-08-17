@@ -37,7 +37,7 @@
 ![Menu Section](./Screenshots/Menu.png)
 
 ### Cart page
-![Mobile App Section](./Screenshots/mobile-app.png)
+![Mobile App Section](./Screenshots/Cart.png)
 
 ### Delivery Section
 ![Contact Section](./Screenshots/Delivery.png)
