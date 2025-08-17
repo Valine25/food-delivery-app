@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { assets } from "../../assets/frontend_assets/assets";
 import "./navbar.css";
 import { Link } from "react-router-dom";
-export default function Navbar() {
+export default function Navbar({setShowLogin}) {
   const [menu, setMenu] = useState("home");
 
   return (
@@ -22,7 +22,7 @@ export default function Navbar() {
           <img src={assets.basket_icon} alt="" />
           <div className="dot"></div>
         </div>
-        <button className="navbar-button">Sign In</button>
+        <button className="navbar-button" onClick={()=>setShowLogin(true)}>Sign In</button>
       </div>
     </div>
   );
