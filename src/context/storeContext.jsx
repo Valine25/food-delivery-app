@@ -26,13 +26,16 @@ export const StoreContextprovider = (props) => {
     }
     return totalAmount;
   };
+  const [promo,setPromo]=useState(false);
   const contextValue = {
     food_list,
     cartItems,
     setCartItems,
     addToCart,
     removeFromCart,
-    getTotalCartAmount
+    getTotalCartAmount,
+    promo,
+    setPromo
   };
   return (
     <StoreContext.Provider value={contextValue}>
