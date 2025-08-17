@@ -1,12 +1,47 @@
-# React + Vite
+# The Tummy Store 🍔🍕🍱
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**The Tummy Store** is a modern **food delivery frontend application** built using **React.js**. It allows users to explore menus, view app features, and interact with a responsive and visually appealing interface.  
 
-Currently, two official plugins are available:
+> ⚠️ This project only contains the **frontend**. Backend is not included yet.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Responsive **navbar** with smooth section navigation
+- Video logo for branding
+- Menu section to showcase available dishes
+- Mobile app download section
+- Contact/ footer section
+- Search bar and shopping basket icon
+- User-friendly **Sign In** button (frontend only)
+- Active menu highlighting as users scroll
+
+---
+
+## Tech Stack
+
+- **React.js** for frontend development
+- **CSS** for styling and responsive design
+- **React Router** for navigation
+- **Video & image assets** for branding
+
+---
+
+## Screenshots
+
+### Home Page
+![Home Page](./Screenshots/home.png)
+
+### Menu Section
+![Menu Section](./Screenshots/Menu.png)
+
+### Cart page
+![Mobile App Section](./Screenshots/mobile-app.png)
+
+### Delivery Section
+![Contact Section](./Screenshots/Delivery.png)
+
+
+---
+
